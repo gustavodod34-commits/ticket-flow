@@ -1,16 +1,27 @@
-# React + Vite
+# 🎫 TicketFlow HelpDesk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um sistema ágil e responsivo para abertura, gerenciamento e filtragem de chamados de suporte técnico (HelpDesk). Desenvolvido como projeto prático para consolidar fundamentos de React e manipulação de estados.
 
-Currently, two official plugins are available:
+🌍 **[Acesse o projeto online aqui!](https://ticketflow-bybrick.netlify.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💻 Funcionalidades (CRUD)
 
-## React Compiler
+O TicketFlow permite o gerenciamento completo do ciclo de vida de um chamado:
+* **Create:** Abertura de novos chamados com título e descrição detalhada.
+* **Read:** Listagem dinâmica de todos os tickets em uma interface limpa.
+* **Update:** Resolução de chamados abertos (mudança de status).
+* **Delete:** Exclusão definitiva de chamados do sistema.
+* **Filtros Dinâmicos:** Alternância instantânea de visualização entre chamados "Todos", "Abertos" e "Resolvidos".
+* **Persistência de Dados:** Integração com o `localStorage` do navegador, garantindo que os chamados não sejam perdidos ao recarregar a página (F5).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+* **React (com Vite):** Biblioteca principal para a construção da interface e componentização.
+* **JavaScript (ES6+):** Lógica de negócios, métodos de array (`.map`, `.filter`) e Hooks do React (`useState`, `useEffect`).
+* **Tailwind CSS:** Estilização utilitária para criar uma interface moderna, amigável e 100% responsiva.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Como rodar o projeto na sua máquina
+
+1. Clone este repositório:
+```bash
+git clone [https://github.com/SEU_USUARIO/ticket-flow.git](https://github.com/SEU_USUARIO/ticket-flow.git)
