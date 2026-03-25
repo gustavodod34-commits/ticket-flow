@@ -19,9 +19,3 @@ O TicketFlow permite o gerenciamento completo do ciclo de vida de um chamado:
 * **React (com Vite):** Biblioteca principal para a construção da interface e componentização.
 * **JavaScript (ES6+):** Lógica de negócios, métodos de array (`.map`, `.filter`) e Hooks do React (`useState`, `useEffect`).
 * **Tailwind CSS:** Estilização utilitária para criar uma interface moderna, amigável e 100% responsiva.
-
-## 🚀 Como rodar o projeto na sua máquina
-
-1. Clone este repositório:
-```bash
-git clone [https://github.com/SEU_USUARIO/ticket-flow.git](https://github.com/SEU_USUARIO/ticket-flow.git)
